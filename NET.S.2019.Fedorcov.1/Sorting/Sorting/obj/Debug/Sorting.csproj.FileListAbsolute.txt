@@ -1,0 +1,7 @@
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\bin\Debug\Sorting.exe.config
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\bin\Debug\Sorting.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\bin\Debug\Sorting.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\obj\Debug\Sorting.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\obj\Debug\Sorting.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.1\Sorting\Sorting\obj\Debug\Sorting.csprojAssemblyReference.cache
