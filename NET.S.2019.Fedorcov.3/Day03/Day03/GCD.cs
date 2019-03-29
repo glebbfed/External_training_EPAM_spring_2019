@@ -37,7 +37,7 @@ namespace Day03
 
             while (i + 1 < numbers.Length)
             {
-                if (numbers[i+1] < 0)
+                if (numbers[i + 1] < 0)
                     numbers[i + 1] = Math.Abs(numbers[i + 1]);
 
                 if (numbers[i] == 0)
@@ -97,46 +97,58 @@ namespace Day03
                     throw new ArgumentException();
             }
 
-            int shift = 0;
-
             int i = 0;
-            if (numbers[i] < 0)
-                numbers[i] = Math.Abs(numbers[i]);
+
+            numbers[i] = Math.Abs(numbers[i]);
 
             while (i + 1 < numbers.Length)
             {
-                if (numbers[i + 1] < 0)
-                    numbers[i + 1] = Math.Abs(numbers[i + 1]);
+                numbers[i + 1] = Math.Abs(numbers[i + 1]);
 
-                while (((numbers[i] | numbers[i + 1]) & 1) == 0)
+                if (numbers[i] == 0)
                 {
-                    numbers[i] >>= 1;
-                    numbers[i + 1] >>= 1;
-                    shift++;
+                    numbers[i] = numbers[i + 1];
                 }
 
-                while ((numbers[i] & 1) == 0)
+                if (numbers[i + 1] == 0)
                 {
-                    numbers[i] >>= 1;
+                    numbers[i + 1] = numbers[i];
                 }
-                do
+
+                if (numbers[i] != numbers[i + 1])
                 {
-                    while ((numbers[i + 1] & 1) == 0)
+                    int shift = 0;
+                    while (((numbers[i] | numbers[i + 1]) & 1) == 0)
                     {
+                        shift++;
+                        numbers[i] >>= 1;
                         numbers[i + 1] >>= 1;
                     }
 
-                    if (numbers[i] > numbers[i + 1])
+                    while ((numbers[i] & 1) == 0)
                     {
-                        Swap(ref numbers[i], ref numbers[i + 1]);
+                        numbers[i] >>= 1;
                     }
-
-                    numbers[i + 1] -= numbers[i];
-                } while (numbers[i + 1] != 0);
+                    do
+                    {
+                        while ((numbers[i + 1] & 1) == 0)
+                        {
+                            numbers[i + 1] >>= 1;
+                        }
+                        if (numbers[i] > numbers[i + 1])
+                        {
+                            Swap(ref numbers[i], ref numbers[i + 1]);
+                        }
+                        numbers[i + 1] -= numbers[i];
+                    } while (numbers[i + 1] != 0);
+                    numbers[i] <<= shift;
+                    numbers[i + 1] = numbers[i];
+                }
 
                 i++;
             }
-            return numbers[i] << shift;
+
+            return numbers[i];
         }
         /// <summary>
         /// Method that calculates the execution time of the Bynary algorithm
