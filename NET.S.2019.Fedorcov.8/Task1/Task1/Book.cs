@@ -2,7 +2,7 @@
 
 namespace Task1
 {
-    public class Book: IComparable//, IEquatable<Book>
+    public class Book: IComparable, IEquatable<Book>
     {
         public string ISBN { get; set; }
         public string Author { get; set; }
@@ -27,6 +27,22 @@ namespace Task1
         {
             return "ISBN: " + ISBN + " Author: " + Author + " Title: " + Title + " Edition " + Edition + " The year of edition: " + YearOfEdition.ToString() + " Price: " + Price;
 
+        }
+
+        public string ToString(string format)
+        {
+            if (format == null || format == "")
+                format = "1";
+
+
+            switch (format)
+            {
+                case "1": return "Book: " + Title + " Author: " + Author;
+                case "2": return "Book: " + Title + " Author: " + Author + " ISBN: " + ISBN;
+                case "3": return "Book: " + Title + " Author: " + Author + " " + YearOfEdition.ToString() + " y." + " ISBN: " + ISBN;
+                case "4": return "Book: " + Title + " Author: " + YearOfEdition.ToString() + " y. " + NumberOfPages.ToString() + " p. " + Author + " ISBN: " + ISBN;
+                default: throw new FormatException(String.Format("The {0} format string is not supported.", format));
+            }
         }
 
         public override bool Equals(object obj)
@@ -55,11 +71,25 @@ namespace Task1
             return ISBN.GetHashCode() + Title.GetHashCode() + YearOfEdition.GetHashCode();
         }
 
+        public int CompareTo(Book book)
+        {
+            if (ReferenceEquals(book, null))
+            {
+                return 1;
+            }
+
+            return string.Compare(book.Title, Title);
+        }
+
         public int CompareTo(object obj)
         {
             if (ReferenceEquals(obj, null))
+            {
                 return 1;
-            Book book = (Book)obj;
+            }
+
+            var book = (Book)obj;
+
             return CompareTo(book);
         }
 

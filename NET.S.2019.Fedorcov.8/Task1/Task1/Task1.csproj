@@ -46,6 +46,7 @@
     <Compile Include="Book.cs" />
     <Compile Include="BookListService.cs" />
     <Compile Include="BookStorage.cs" />
+    <Compile Include="Formatter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
