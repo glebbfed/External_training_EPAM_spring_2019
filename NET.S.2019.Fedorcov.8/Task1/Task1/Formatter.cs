@@ -4,12 +4,14 @@ namespace Task1
 {
     public static class Formater
     {
-        public static Book BookFormat(this Book book)
+        public static string Format(string format, Book book)
         {
-            if (book == null)
-                throw new ArgumentNullException();
-            book.Title = book.Title.ToUpper();
-            return book;
+            switch (format)
+            {
+                case "1": return "Book: " + book.Title + " Author: " + book.Author;
+                case "2": return "Book: " + book.Title + " Author: " + book.Author + " ISBN: " + book.ISBN;
+                default: throw new FormatException(String.Format("The format of '{0}' is invalid.", format));
+            }
         }
 
     }

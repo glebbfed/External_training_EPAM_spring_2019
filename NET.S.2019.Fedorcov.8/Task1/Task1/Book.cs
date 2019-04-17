@@ -4,13 +4,13 @@ namespace Task1
 {
     public class Book: IComparable, IEquatable<Book>
     {
-        public string ISBN { get; set; }
-        public string Author { get; set; }
-        public string Title { get; set; }
-        public string Edition { get; set; }
-        public int YearOfEdition { get; set; }
-        public int NumberOfPages { get; set; }
-        public double Price { get; set; }
+        public string ISBN { get; private set; }
+        public string Author { get; private set; }
+        public string Title { get; private set; }
+        public string Edition { get; private set; }
+        public int YearOfEdition { get; private set; }
+        public int NumberOfPages { get; private set; }
+        public double Price { get; private set; }
 
         public Book(string isbn, string author, string title, string edition, int yearOfEdition, int numberOfPages, double price)
         {
