@@ -1,0 +1,6 @@
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\bin\Debug\Day05.dll
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\bin\Debug\Day05.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\obj\Debug\Day05.csprojAssemblyReference.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\obj\Debug\Day05.csproj.CoreCompileInputs.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\obj\Debug\Day05.dll
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.5\Day05\Day05\obj\Debug\Day05.pdb

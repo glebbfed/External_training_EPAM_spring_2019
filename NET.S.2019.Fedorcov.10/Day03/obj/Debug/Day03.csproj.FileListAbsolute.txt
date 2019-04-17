@@ -1,0 +1,7 @@
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\bin\Debug\Day03.exe.config
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\bin\Debug\Day03.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\bin\Debug\Day03.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\obj\Debug\Day03.csprojAssemblyReference.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\obj\Debug\Day03.csproj.CoreCompileInputs.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\obj\Debug\Day03.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.3\Day03\Day03\obj\Debug\Day03.pdb
