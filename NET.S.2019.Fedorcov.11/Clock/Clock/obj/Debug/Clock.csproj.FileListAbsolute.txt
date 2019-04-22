@@ -1,0 +1,7 @@
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\bin\Debug\Clock.exe.config
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\bin\Debug\Clock.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\bin\Debug\Clock.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\obj\Debug\Clock.csprojAssemblyReference.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\obj\Debug\Clock.csproj.CoreCompileInputs.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\obj\Debug\Clock.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.11\Clock\Clock\obj\Debug\Clock.pdb
