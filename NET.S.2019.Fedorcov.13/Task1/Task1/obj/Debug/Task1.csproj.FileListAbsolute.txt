@@ -1,0 +1,7 @@
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\bin\Debug\Task1.exe.config
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\bin\Debug\Task1.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\bin\Debug\Task1.pdb
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\obj\Debug\Task1.exe
+C:\Users\Labrador\Desktop\EPAM\NET.S.2019.Fedorcov.13\Task1\Task1\obj\Debug\Task1.pdb
