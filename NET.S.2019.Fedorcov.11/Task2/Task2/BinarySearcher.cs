@@ -21,17 +21,17 @@ namespace Task2
 
             int first = 0;
             int last = array.Length - 1;
-
-            while (true)
+            while (first <= last)
             {
                 int mid = first + (last - first) / 2;
-                if (array[mid].Equals(item))
+                if (comparer.Compare(item, array[mid]) == 0)
                     return mid;
                 if (comparer.Compare(item, array[mid]) > 0)
+                    last = mid - 1;
+                else
                     first = mid + 1;
-                else if (comparer.Compare(item, array[mid]) <= 0)
-                    last = mid;
             }
+                return -1;
         }
     }
 }
